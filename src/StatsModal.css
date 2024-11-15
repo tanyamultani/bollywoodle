@@ -1,0 +1,98 @@
+.bar-chart-wrapper {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  color: grey;
+  align-items: center;
+  font-weight: lighter;
+}
+
+.bar-chart-wrapper-list {
+  padding: 0;
+  margin-top: 2vh;
+}
+
+.bar-chart {
+  height: 4vh;
+  background-color: #282c34;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  border-radius: 0px 30px 30px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bar-score {
+  color: white;
+  margin-right: 1vh;
+  font-weight: bold;
+  margin-left: 1vh;
+}
+
+.title {
+  color: white;
+  font-family: 'Varela Round';
+  font-weight: bolder; 
+  font-size: 26px;
+}
+
+
+.guess-distribution {
+  color: #282c34;
+  font-family: 'Varela Round';
+  font-weight: bolder; 
+  margin-top: 2vh;
+
+}
+
+.games-won-title, .games-played-title {
+  color: #282c34;
+  font-family: 'Varela Round';
+  font-weight: lighter; 
+  font-style: italic;
+  display: flex; align-items: center; justify-content: center;
+
+}
+
+.games-won-box, .games-played-box {
+  color: white;
+  font-family: 'Varela Round';
+  border: 2px solid #282c34;
+  background-color: #282c34;
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  border-radius: 5px;
+  display: flex; align-items: center; justify-content: center;
+  padding: 1vh;
+}
+
+.icons-modal {
+  font-size: 4vh;
+  background: transparent;
+  border: none !important;
+  color: white;
+  padding-right: 0px;
+}
+
+.stats-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.stats-games-played {
+  width: 17vh;
+}
+
+.stats-games-won {
+  width: 17vh;
+}
+
+.header-stats {
+  background-color: #282c34;
+  color: white;
+}
